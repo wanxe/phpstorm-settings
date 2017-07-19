@@ -1,0 +1,28 @@
+<templateSet group="PHP">
+  <template name="func" value="function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="Regular function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="switch" value="switch ($CONDITION$) {&#10;    case '$ONE$':&#10;        echo &quot;FOO&quot;;&#10;        break;&#10;    case '$TWO$':&#10;        echo &quot;FOO VAR&quot;;&#10;        break;&#10;        default:&#10;        break;&#10;}" description="switch case statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cur" value="$ch = curl_init('url');&#10;curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);&#10;curl_setopt($ch, CURLOPT_POST, count($1$));&#10;curl_setopt($ch, CURLOPT_POSTFIELDS, $1$);&#10;$httpResponse = curl_exec($ch);&#10;$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);&#10;curl_close($ch);" description="New Curl definition" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;    // code&#10;} catch (Exception $e) {&#10;    echo $e-&gt;getMessage(), &quot;\n&quot;;&#10;}" description="try catch statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

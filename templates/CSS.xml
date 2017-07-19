@@ -1,0 +1,13 @@
+<templateSet group="CSS">
+  <template name="try" value="try {&#10;    $CODE$    &#10;} catch (\Exception $e) {&#10;    $END$&#10;}" description="try / catch statement" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="flex" value="display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */&#10;display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */&#10;display: -ms-flexbox;      /* TWEENER - IE 10 */&#10;display: -webkit-flex;     /* NEW - Chrome */&#10;display: flex;  " description="flex" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

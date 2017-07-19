@@ -1,0 +1,10 @@
+<templateSet group="Json">
+  <template name="composer" value="{&#10;  &quot;name&quot;: &quot;$NAME$&quot;,&#10;  &quot;description&quot;: &quot;$DESCRIPTION$&quot;,&#10;  &quot;type&quot;: &quot;library&quot;,&#10;  &quot;authors&quot;: [&#10;    {&#10;      &quot;name&quot;: &quot;jorge-nieto&quot;,&#10;      &quot;email&quot;: &quot;jorge.nietou@gmail.com&quot;&#10;    }&#10;  ],&#10;  &quot;require&quot;: {&#10;    &quot;monolog/monolog&quot;: &quot;^1.22&quot;,&#10;    &quot;swiftmailer/swiftmailer&quot;: &quot;^5.4&quot;,&#10;    &quot;guzzlehttp/guzzle&quot;: &quot;^6.2&quot;,&#10;    &quot;phpunit/phpunit&quot;: &quot;5.7&quot;&#10;  },&#10;  &quot;autoload&quot;: {&#10;    &quot;psr-4&quot;: {&#10;      &quot;$APP$\\Subdir\\&quot;: &quot;src/&quot;&#10;    }&#10;  }&#10;}&#10;" description="Composer file boilerplate" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="APP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

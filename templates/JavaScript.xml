@@ -1,0 +1,16 @@
+<templateSet group="JavaScript">
+  <template name="cons" value="console.log($Name$)" description="Console Log" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="switch" value="switch($1$) {&#10;    case $2$:&#10;        //code block&#10;        break;&#10;    case $3$:&#10;        //code block&#10;        break;&#10;    default:&#10;        //default code block&#10;}" description="Swit case statement" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
