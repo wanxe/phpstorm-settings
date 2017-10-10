@@ -1087,7 +1087,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="27f92232-6bdb-4164-bb3a-397c1e17b8da" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/work/admin_interface/phpunit.xml" custom_loader_path="/var/www/work/its-privat/manager/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="27f92232-6bdb-4164-bb3a-397c1e17b8da" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/work/admin_interface/phpunit.xml" custom_loader_path="/var/www/work/its-privat/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
       <phpunit_by_interpreter interpreter_id="d7401624-a79f-4bbb-af6d-d063009f04ac" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/work/policy-manager/vendor/autoload.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
