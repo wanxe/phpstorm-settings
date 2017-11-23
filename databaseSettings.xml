@@ -1,7 +1,8 @@
 <application>
-  <component name="DatabaseSettings">
+  <component name="DatabaseSettings" version="2">
+    <option name="ddl-editor-confirm-loss" value="false" />
     <csv-formats>
-      <csv-format name="Tab-separated (TSV)">
+      <csv-format name="Tab-separated (TSV)" id="29321769-f2db-4689-859f-fd75f937c3af">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
             <quotation>
@@ -11,7 +12,7 @@
           </record-format>
         </data>
       </csv-format>
-      <csv-format name="Comma-separated (CSV)">
+      <csv-format name="Comma-separated (CSV)" id="c2c5317b-2fc4-44d4-8d87-a6e9233835cd">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
             <quotation>
