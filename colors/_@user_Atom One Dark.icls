@@ -4,7 +4,7 @@
     <property name="created">2017-11-29T08:25:25</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.2.4.0.0</property>
-    <property name="modified">2017-11-29T08:30:38</property>
+    <property name="modified">2018-02-09T12:58:42</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -601,6 +601,7 @@
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="61aeef" />
+        <option name="ERROR_STRIPE_COLOR" value="b39613" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
