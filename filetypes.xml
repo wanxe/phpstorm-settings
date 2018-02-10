@@ -3,10 +3,11 @@
     <extensionMap>
       <mapping ext="vue" type="HTML" />
       <mapping pattern=".htaccess-sample" type="PLAIN_TEXT" />
+      <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess_old_2018" type="PLAIN_TEXT" />
-      <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="php_old" type="PLAIN_TEXT" />
       <mapping ext="_oldvue" type="PLAIN_TEXT" />
+      <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="php_old2017" type="PLAIN_TEXT" />
       <removed_mapping ext="vue" type="Vue.js" />
