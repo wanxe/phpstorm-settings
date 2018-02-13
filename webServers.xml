@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cdf7ddff-766f-4c9d-b0c9-b69012a1d2e2" name="snap-hr" url="http://snap.loc">
+        <fileTransfer host="10.0.11.20" port="22" privateKey="$USER_HOME$/Projects/work/snap/snap-back/vm_ansible/snap/back/.vagrant/machines/BiBox-back/virtualbox/private_key" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
